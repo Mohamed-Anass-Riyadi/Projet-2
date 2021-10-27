@@ -1,14 +1,11 @@
 li,a {
     text-decoration: none;
 }
-
 .nav_links li {
-   display: inline-block;
-   margin: 0px 10px;
-
-}
-
-.nav_links li a:hover {
+    display: inline-block;
+    margin: 0px 10px;
+ }
+ .nav_links li a:hover {
     color:#0088a9
 }
 .fas , fa-home {
