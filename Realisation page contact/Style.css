@@ -1,3 +1,6 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">);
 *{
     margin: 0;
     padding: 0;
@@ -38,13 +41,16 @@ header{
 }
 .menu-bar li a:hover{
     color: rgb(0, 0, 0);
+
 }
+
 .log button{
     padding: 9px 25px;
     background-color: #150050;
     border-color: #ffffff;
     border-radius: 5px;
     color: rgb(250, 250, 250);
+    cursor: pointer;
 }
 .day button {
     padding: 9px 25px;
@@ -52,14 +58,15 @@ header{
     border: none;
     border-radius: 5px;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 .contactus{
 
     text-align: center;
-    height: 266px;
+    height: 150px;
     width: 100%;
     background-color: #8E05C2;
-    
+    padding-top: 70px;
 
 }
 .contactus h1  {
@@ -81,20 +88,50 @@ input{
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
+    height: 30px;
+    width: 400px;
 }
 textarea{
-    width: 200px;
+    width: 400px;
     resize: none;
-    margin-top: 20px;
+    margin-top: 8px;
     height: 100px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .reach h2{
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #150050;
 }
 .reach p{
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
+    color: #646464;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 13px;
 }
+#submitbutton {
+
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    background-color: #8E05C2;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: hidden;
+    position: relative;
+    left: 262px;
+    padding-right: 30px;
+    cursor: pointer;}
+    .landerteam{
+        float: right;
+        width: 50%;
+        margin-top: 60px;
+    }
+    .reach{
+        width: 50%;
+        float: left;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
