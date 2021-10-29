@@ -79,10 +79,8 @@ header{
 }
 .contactus p {
 
-    color: #fff;
-    opacity: 0.7;
+    color: rgb(255, 255, 255);
     padding-left: 10px;
-
 }
 input{
     display: block;
@@ -114,14 +112,14 @@ textarea{
 }
 #submitbutton {
 
-    width: 140px;
+    width: 100px;
     height: 40px;
     color: #fff;
     background-color: #8E05C2;
     font-family: 'Courier New', Courier, monospace;
     border-style: hidden;
     position: relative;
-    left: 262px;
+    left: 303px;
     padding-right: 30px;
     cursor: pointer;}
     .landerteam{
@@ -135,3 +133,42 @@ textarea{
         margin-top: 30px;
         margin-bottom: 20px;
     }
+    .landerteam h2{
+        font-family: 'Roboto', sans-serif;
+        color: #150050;
+        font-size: 25px;    
+    }
+    #othersway{
+        font-family: 'Roboto', sans-serif;
+        color: #000000;
+        font-size: 15px;  
+        padding-top: 30px;  
+    }
+    .landerteam p{
+        margin-top: 0px;
+        color: #646464;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 13px;
+    }
+    #iconfb{
+        padding-right: 30px;
+    }
+    .log :hover{
+        background-color: rgb(0, 0, 0);
+    }
+    .day :hover{
+        background-color: #150050;
+    }
+    #icon{
+        float: left;
+        font-size: 50px;
+        margin-right: 20px;
+        color: #8E05C2;
+    }
+    #othersway{
+        margin-bottom: 30px;
+    }
+    #fb{
+        margin-top: 10px;
+    }
+    
