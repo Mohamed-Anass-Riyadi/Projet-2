@@ -254,19 +254,3 @@ h5{
 #footerbtn:hover{
     background-color: #8E05C2;
 }
-.icons #facebook{
-    width: 10px;
-    height: 20px;
-}
-.icons #twitter {
-    width: 35px;
-    height: 20px;
-}
-.icons #instagram{
-    width: 20px;
-    height: 20px;
-}
-.icons #linkedin{
-    width: 22px;
-    height: 20px;
-}
